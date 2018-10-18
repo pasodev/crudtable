@@ -1,0 +1,152 @@
+
+.paso-main {
+    background : #f0f8ff;
+    padding: 20px 0 0 50px;
+}
+
+.paso-section {
+    padding: 10px 0px 20px 0px;
+    width: 100%;
+}
+
+.paso-title {
+
+}
+
+.paso-modal {
+    display: none;
+
+}
+
+.paso-modal-active {
+    background : #fff8ff;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top:25%;
+    width:75%
+}
+
+.paso-modal-close {
+    background: white;
+}
+
+.paso-modal-close p {
+    float: right;
+    margin: 10px 15px 0px 0px;
+    cursor: pointer;
+}
+
+.paso-table {
+    border: 1px solid grey;
+}
+
+.paso-table thead td {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+
+.paso-table tr {
+    border: 1px solid grey;
+}
+
+.paso-table td {
+    padding: 5px 5px 5px 5px;
+}
+
+.paso-submit {
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+
+.paso-error {
+    color : red;
+
+}
+
+.row-option {
+    padding 5px 5px 5px 5px;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.paso-edition-form {
+
+}
+
+.paso-edition-form input[type=text]{
+    width: 90%;
+    margin: 2px 0px 0px 10px;
+}
+
+.paso-edition-form label{
+    width: 100%;
+}
+
+.paso-submit-edition{
+    padding 5px 5px 5px 5px;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 90%;
+    margin 15px;
+}
+
+
+.search-button {
+    padding 5px 5px 5px 5px;
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    margin 15px 10px 10px 10px;
+}
+.paso-disabled {
+    color: grey;
+}
+
+.paso-enabled{
+    color: blue;
+}
+
+#form-container {
+    width: 60%;
+}
+
+.paso-searchform {
+    border: 1px solid grey;
+    padding: 20px 15px 25px 15px;
+}
+
+#show-next-ten, #show-previous-ten {
+    cursor:pointer;
+}
+.browse-section {
+    text-align: center;
+}
+.paso-modal-content {
+    padding: 20px 20px 20px 20px;
+}
